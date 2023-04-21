@@ -13,7 +13,7 @@ import Dashboard from "./scenes/dashboard";
 // import Geography from "./scenes/geography";
 import { Route, Routes } from "react-router-dom";
 // import Calendar from "./scenes/calendar/calendar";
-
+import Sidebar from './scenes/global/Sidebar'
 function App() {
 
   const [theme,colorMode]= useMode();
@@ -25,6 +25,7 @@ function App() {
     <div className="App">
     <main className="content">
       <Topbar/>
+    <Sidebar/>
       <Routes>
      
       <Route path="/" element={<Dashboard />} />
@@ -48,4 +49,4 @@ function App() {
 }
 
 export default App;
-// 55:55
+// 1:08
