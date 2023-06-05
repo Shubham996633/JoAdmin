@@ -1,5 +1,5 @@
 # JoAdmin
-Its a addmin dashboard replica with React JS and Tailwind CSS
+Its a ddmin dashboard replica with React JS and Tailwind CSS
 
 Its Deployed Link is : https://joadmin369.netlify.app/
 
